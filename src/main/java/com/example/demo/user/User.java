@@ -45,5 +45,10 @@ public class User implements UserDetails {
     public String getUsername() {
         return email;
     }
+
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
 
